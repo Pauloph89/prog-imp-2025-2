@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class ex02-revisao{
+    public static void main(Strig[] args){
+        Scanner scan = new Scanner(System.in);
+
+        do{
+            System.out.println("====MENU====");
+            System.out.println("Imprir de 1 a 100");
+            System.out.println("Imprimir os pares de 1 a 100");
+            System.out.println("Imprimir os ímpares de 1 a 100");
+            System.out.println("Imprima 0 para sair");
+            System.out.println("Escolha uma das opções: ");
+            opcao = scan.nexInt();
+
+            switch(opcao){
+                case 1:
+                System.out.println("\nNúmeros de 1 a 100.");
+                for (int i = 1; i <+= 100; i ++){
+                    System.out.print(i + ", ");
+                }
+            }
+        }
+
+    }
+}
