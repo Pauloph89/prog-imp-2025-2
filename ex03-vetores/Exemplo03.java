@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exemplo03 {
-    public static final int QTD = ;
+    public static final int QTD = 10;
     public static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
         int [] numeros = new int[QTD];

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exemplo04 {
+public class Exemplo0 {
     public static final int QTD = 4;
     public static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
