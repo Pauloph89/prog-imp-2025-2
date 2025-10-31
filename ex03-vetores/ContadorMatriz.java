@@ -19,6 +19,7 @@ public class ContadorMatriz {
                 
                 matriz[i][j] = input.nextInt();
                 
+                ,
                 if (matriz[i][j] > 10) {
                     contadorMaiores10++; 
                 }
