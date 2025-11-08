@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Execiciohj {
+public class Execici {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
